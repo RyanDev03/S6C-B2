@@ -19,12 +19,10 @@ body {
     height: 100px;
     width: 400px;
 }
-.Art .picture {
+.Art .artImage {
     opacity: 87%;
-    height: 150px;
-    width: 300px;
-    display: flex;
-    align-self: center;
-    border-radius: 90px;
+    height: 500px;
+    width: 700px;
+    border-radius: 100%;
     
 }
