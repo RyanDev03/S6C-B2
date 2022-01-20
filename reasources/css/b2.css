@@ -3,18 +3,24 @@
 body {
     font-family: 'Ubuntu', sans-serif;
     background-color: white(240, 232, 232);
+    font-size: 35px;
 }
 .rectangle {
     height: 20px;
     width: 900px;
-    background-color: purple;
+    background-color: rgb(13,113,184);
 }
 
  
-.logo{
+.logo .img {
     
+    max-height: 40;
     max-width: 700;
-    width: 700px;
-    height: 200px;
+    height: auto;
+    width: auto;
+    width: 100%;
+    height: auto;
 }
- 
+.subjects{
+    opacity: 87%;
+}
