@@ -1,26 +1,30 @@
 @import url(https://fonts.googleapis.com/css2?family=Ubuntu:wght@100;200;300;400;500;600;700&display=swap);
 
 body {
+    padding: 0;
+    margin: 0;
+    display: grid;
     font-family: 'Ubuntu', sans-serif;
     background-color: white(240, 232, 232);
     font-size: 35px;
 }
 .rectangle {
     height: 20px;
-    width: 900px;
-    background-color: rgb(13,113,184);
+    width: 100%;
+    background-color: purple;
 }
 
  
-.logo .img {
-    
-    max-height: 40;
-    max-width: 700;
-    height: auto;
-    width: auto;
-    width: 100%;
-    height: auto;
+.logo{
+    height: 100px;
+    width: 400px;
 }
-.subjects{
+.Art .picture {
     opacity: 87%;
+    height: 150px;
+    width: 300px;
+    display: flex;
+    align-self: center;
+    border-radius: 90px;
+    
 }
