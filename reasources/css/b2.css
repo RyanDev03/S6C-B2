@@ -23,7 +23,7 @@ body {
 }
 
 
-#artImg{
+#img{
    border-radius: 35px 35px 35px 35px;
    margin: 22px;
    width: 450px;
@@ -31,4 +31,8 @@ body {
    display: flex;
    justify-content: center;
    
+}
+#art{
+    background-color: white;
+    border: white;
 }
