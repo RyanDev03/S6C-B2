@@ -1,5 +1,7 @@
 {
   "hosting": {
+  "host": "HOST",
+   "port": "http://127.0.0.1:5500/S6C-B2/b2.html",
     "public": "public",
     "ignore": [
       "firebase.json",
