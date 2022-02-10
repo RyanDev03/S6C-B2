@@ -1,7 +1,5 @@
 {
   "hosting": {
-  "host": "HOST",
-   "port": "http://127.0.0.1:5500/S6C-B2/b2.html",
     "public": "public",
     "ignore": [
       "firebase.json",
@@ -14,5 +12,29 @@
         "destination": "/index.html"
       }
     ]
+  },
+  "functions": {
+    "source": "functions",
+    "predeploy": [
+      "npm --prefix \"$RESOURCE_DIR\" run lint"
+    ]
+  },
+  "database": {
+    "rules": "database.rules.json"
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "emulators": {
+    "functions": {
+      "port": 5001
+    },
+    "hosting": {
+      "port": 5000
+    },
+    "ui": {
+      "enabled": true
+    }
   }
 }
