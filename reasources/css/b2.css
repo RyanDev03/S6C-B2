@@ -30,7 +30,8 @@ body {
    height: 210px;
    display: flex;
    justify-content: center;
-   
+   object-fit:  fill;
+   object-fit: cover;
 }
 #art{
     background-color: white;
