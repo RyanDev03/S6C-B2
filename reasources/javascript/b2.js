@@ -5,7 +5,7 @@ artImg.addEventListener('click,',function () {
         window.open("/S6C-B2/CreativeM/art.html")
 })
 
-function websiteLink() {
+function artClick() {
     window.open("/S6C-B2/CreativeM/art.html")
 }
 
