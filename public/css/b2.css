@@ -23,7 +23,7 @@ body {
 }
 
 
-.subjects{
+#subjects{
    border-radius: 35px 35px 35px 35px;
    margin: 22px;
    width: 450px;
@@ -32,8 +32,10 @@ body {
    justify-content: center;
    object-fit:  fill;
    object-fit: cover;
+   
 }
 #Art{
     background-color: white;
     border: white;
 }
+
