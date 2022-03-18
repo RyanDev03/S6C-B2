@@ -31,4 +31,18 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
+// var path = spaceRef.fullpath;
+// var gsRefererence = storage.refFromURL("gs://final-b2.appspot.com/")
 
+function showImage() {
+  var storageRef = firebase.storgae().ref();
+  varspaceRef = storgaeRef.child('public/reasources/image/logo.png');
+  storageRef.child('public/reasources/image/logo.png').getDownloadURL().then(function(url){
+    var test = url;
+    alert(url);
+    document.querySelector('logo.png').src = test
+
+  }).catch(function(error){
+  })}
+  var test = 'https://final-b2.web.app/'
+  document.querySelector('logo.png').src = test;
