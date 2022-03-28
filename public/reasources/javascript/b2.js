@@ -45,4 +45,4 @@ function showImage() {
   }).catch(function(error){
   })}
   var test = 'https://final-b2.web.app/'
-  document.querySelector('logo.png').src = test;
+  document.querySelector('logo.png').src = test; 
