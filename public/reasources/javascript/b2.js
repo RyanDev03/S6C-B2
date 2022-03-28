@@ -35,7 +35,7 @@ const analytics = getAnalytics(app);
 // var gsRefererence = storage.refFromURL("gs://final-b2.appspot.com/")
 
 function showImage() {
-  var storageRef = firebase.storgae().ref();
+  var storageRef = firebase.storage().ref();
   varspaceRef = storgaeRef.child('public/reasources/image/logo.png');
   storageRef.child('public/reasources/image/logo.png').getDownloadURL().then(function(url){
     var test = url;

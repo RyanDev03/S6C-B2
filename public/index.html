@@ -53,6 +53,7 @@
    
  
     <script type="module">
+
         import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js";
         import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-analytics.js";
        
@@ -70,13 +71,15 @@
      
         const app = initializeApp(firebaseConfig);
         const analytics = getAnalytics(app);
+        const storage = getStorage(firebaseApp);
+        import { getStorage, ref } from "firebase/storage";
+        const pathReference = ref(storage, '/public/reasources/image/s6c_logo_hz.png');
+        // Create a reference from a Google Cloud Storage URI
+const gsReference = ref(storage, '"gs://final-b2.appspot.com/logo.png"');
 
-        import{getStorage, ref as sRef, uploadBytesResumable, getDownloadURL}
-         from "https://www.gstatic.com/firebasejs/9.6.10/firebase-storage.js"
+const httpsReference = ref(storage, 'gs://final-b2.appspot.com/s6c_logo_hz.png');
 
-         import{getDatabase, ref, set, child, get , update, remove}
-         from "https://www.gstatic.com/firebasejs/9.6.10/firebase-database.js";
-         const realdb = getdatabase()
+        
       </script>
 </body>
 
