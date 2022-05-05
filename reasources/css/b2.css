@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css2?family=Ubuntu:wght@100;200;300;400;500;600;700&display=swap);
+
+body {
+    padding: 0;
+    margin: 0;
+    display: grid;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: white;
+    font-size: 35px;
+}
+.rectangle {
+    height: 20px;
+    width: 100%;
+    background-color: purple;
+    padding-bottom: .2rem;
+    margin-bottom: .2rem;
+}
+
+ 
+.logo{
+    height: 100px;
+    width: 400px;
+}
+
+
+#subjects{
+   border-radius: 35px 35px 35px 35px;
+   margin: 22px;
+   width: 450px;
+   height: 210px;
+   display: flex;
+   justify-content: center;
+   object-fit:  fill;
+   object-fit: cover;
+   
+}
+#Art{
+    background-color: white;
+    border: white;
+}
+
+.film{
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/final-b2.appspot.com/o/FilmStudies2.jpeg?alt=media&token=650b7937-30c5-4576-b045-ed7fc1a90211);
+}
